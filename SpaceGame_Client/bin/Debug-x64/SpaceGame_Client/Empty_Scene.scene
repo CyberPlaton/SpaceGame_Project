@@ -1,0 +1,16 @@
+Scene: Empty Scene
+Entities:
+  - ComponentViewport:
+      AspectRatio: 1.33333337
+      ViewportWidth: 800
+      ViewportHeight: 600
+      CameraHeight: 5
+    ComponentID:
+      Tag: OrthoCamera
+      ID: 1
+    ComponentTransform:
+      Position: [0, 0]
+      Scale: [1, 1]
+      Rotation: 0
+    ComponentClassName:
+      ClassName: OrthographicCamera

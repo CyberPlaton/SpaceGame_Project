@@ -1,0 +1,54 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(504,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(505,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Main.cpp
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\Base.h(298,29): warning C4244: 'return': conversion from '_Rep' to 'double', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\gainput\GainputContainers.h(322,1): warning C4267: '=': conversion from 'size_t' to 'T', possible loss of data
+          with
+          [
+              T=gainput::uint32_t
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\gainput\GainputContainers.h(309): message : while compiling class template member function 'gainput::HashMap<gainput::DeviceId,bool>::Node *gainput::HashMap<gainput::DeviceId,bool>::insert(const K &,const V &)'
+          with
+          [
+              K=gainput::DeviceId,
+              V=bool
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\gainput\GainputContainers.h(356): message : see reference to function template instantiation 'gainput::HashMap<gainput::DeviceId,bool>::Node *gainput::HashMap<gainput::DeviceId,bool>::insert(const K &,const V &)' being compiled
+          with
+          [
+              K=gainput::DeviceId,
+              V=bool
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\gainput\recorder\GainputInputRecorder.h(64): message : see reference to class template instantiation 'gainput::HashMap<gainput::DeviceId,bool>' being compiled
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\gainput\GainputContainers.h(330,1): warning C4267: '=': conversion from 'size_t' to 'gainput::uint32_t', possible loss of data
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\olcPGEX_Network.h(145,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\SpaceGame_Server\Main.cpp(67): message : see reference to function template instantiation 'olc::net::message<T> &olc::net::operator <<<unsigned int>(olc::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=nautilus::network::NetMsg,
+              DataType=unsigned int
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\SpaceGame_Server\Main.cpp(67): message : see reference to function template instantiation 'olc::net::message<T> &olc::net::operator <<<unsigned int>(olc::net::message<T> &,const DataType &)' being compiled
+          with
+          [
+              T=nautilus::network::NetMsg,
+              DataType=unsigned int
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\common\include\nautilus\common\include\olcPGEX_Network.h(168,1): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\SpaceGame_Server\Main.cpp(86): message : see reference to function template instantiation 'olc::net::message<T> &olc::net::operator >><nautilus::network::PlayerDescription>(olc::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=nautilus::network::NetMsg,
+              DataType=nautilus::network::PlayerDescription
+          ]
+C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\SpaceGame_Server\Main.cpp(86): message : see reference to function template instantiation 'olc::net::message<T> &olc::net::operator >><nautilus::network::PlayerDescription>(olc::net::message<T> &,DataType &)' being compiled
+          with
+          [
+              T=nautilus::network::NetMsg,
+              DataType=nautilus::network::PlayerDescription
+          ]
+  SpaceGame_Server.vcxproj -> C:\Users\Bogdan Strohonov\Desktop\SpaceGame\SpaceGame\SpaceGame_Server\bin\Debug-x64\SpaceGame_Server\SpaceGame_Server.exe
