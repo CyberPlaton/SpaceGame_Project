@@ -1,5 +1,5 @@
 # SpaceGame_Project
-Exploring and testing of programming a Multiplayer space shooter game. The engine used is a work-in-progress homemade engine called "Nautilus" (not publicly available).
+Exploring and testing of programming a Multiplayer space shooter game. The engine used is a work-in-progress homemade engine.
 
 ## Current State
 ### The pictures showcase 4 clients connected to 1 server.
